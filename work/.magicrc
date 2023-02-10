@@ -1,0 +1,2 @@
+source ../tech/magic/.magicrc
+addpath ../design/RPLY_TEMP_SENS_SKY130NM
