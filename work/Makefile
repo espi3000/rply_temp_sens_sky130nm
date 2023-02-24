@@ -11,8 +11,8 @@
 include ../tech/make/core.make
 
 PREFIX=
-LIB=RPLY_TEMP_SENS_SKY130NM
-CELL=RPLY_BG_Vref
+LIB=RPLY_OPAMP
+CELL=RPLY_OPAMP
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = RPLY_TEMP_SENS
+#CELLS = RPLY_TEMP_SENS
