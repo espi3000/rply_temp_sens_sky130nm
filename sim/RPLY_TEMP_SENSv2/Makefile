@@ -5,7 +5,7 @@ VIEW=Sch
 OPT=
 
 netlist:
-	cd ../../work && xschem -q -x -b -s -n ../design/RPLY_TEMP_SENSv2/RPLY_TEMP_SENSv2.sch
+	cd ../../work && xschem -q -x -b -s -n ../design/RPLY_TEMP_SENS_SKY130NM/RPLY_TEMP_SENSv2.sch
 	perl -pi -e "s/\*\*\.subckt/\.subckt/ig;s/\*\*\.ends/\.ends/ig;" ../../work/xsch/RPLY_TEMP_SENSv2.spice
 
 test:
