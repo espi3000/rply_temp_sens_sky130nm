@@ -1,6 +1,0 @@
-corner:
-  Lay: ''
-  Sch: ''
-ngspice:
-  library: RPLY_TEMP_SENS_SKY130NM
-  cell:  RPLY_TEMP_SENS
