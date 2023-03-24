@@ -1,6 +1,0 @@
-corner:
-  Lay: ''
-  Sch: ''
-ngspice:
-  library: TEMP_SENS_ELEMENT_2
-  cell: RPLY_EX0
