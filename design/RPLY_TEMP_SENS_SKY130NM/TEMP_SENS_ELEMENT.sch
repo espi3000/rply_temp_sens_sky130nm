@@ -5,14 +5,6 @@ K {}
 V {}
 S {}
 E {}
-T {Shift-I          Insert new component
-Shift-Z         Zoom in
-Ctrl-Z           Zoom out
-R                 Rotate
-F                 Full view
-
-Manual: https://xschem.sourceforge.io/stefan/xschem_man/xschem_man.pdf
-} -490 -1200 0 0 0.6 0.6 {}
 N -230 -690 -210 -690 {
 lab=V_SENSE}
 N -230 -690 -230 -590 {
