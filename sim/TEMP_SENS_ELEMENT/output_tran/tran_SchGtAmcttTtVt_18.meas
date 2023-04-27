@@ -1,0 +1,9 @@
+* Measure TEMP_SENS_ELEMENT
+.control
+
+load tran_SchGtAmcttTtVt_18.raw
+
+echo "MEAS_START"
+
+echo "MEAS_END"
+.endc

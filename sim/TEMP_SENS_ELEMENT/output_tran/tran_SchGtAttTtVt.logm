@@ -1,0 +1,25 @@
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run
+
+Note: No compatibility mode selected!
+
+
+Circuit: * measure temp_sens_element
+
+Loading raw data file ("tran_SchGtAttTtVt.raw") ...
+done.
+Title:  cicsimgen tran
+Name: DC transfer characteristic
+Date: Fri Mar 17 15:27:11  2023
+
+Here are the vectors currently active:
+
+Title: cicsimgen tran
+Name: dc1 (DC transfer characteristic)
+Date: Fri Mar 17 15:27:11  2023
+
+    temp-sweep          : temp-sweep, real, 2000 long [default scale]
+    v(v_sense)          : voltage, real, 2000 long
+    v(vdd_1v8)          : voltage, real, 2000 long
+    v(vss)              : voltage, real, 2000 long
+MEAS_START
+MEAS_END
