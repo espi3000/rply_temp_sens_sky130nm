@@ -58,10 +58,10 @@ unset askquit
 
 
 #ifdef Debug
-dc TEMP -50 100 1
+dc TEMP 0 300 5
 *quit
 #else
-dc TEMP -50 100 1
+dc TEMP 0 300 5
 write
 quit
 #endif

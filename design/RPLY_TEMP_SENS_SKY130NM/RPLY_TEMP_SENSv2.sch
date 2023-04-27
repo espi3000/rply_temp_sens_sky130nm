@@ -5,8 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N -270 -100 -200 -100 {
-lab=VSS}
 N -330 -670 -300 -670 {
 lab=VDD}
 N -300 -670 -140 -670 {
@@ -29,30 +27,10 @@ N -210 -500 -210 -450 {
 lab=out}
 N -210 -450 -160 -450 {
 lab=out}
-N -210 -450 -210 -180 {
-lab=out}
-N -210 -180 -160 -180 {
-lab=out}
-N -210 -270 -160 -270 {
-lab=out}
 N -210 -360 -160 -360 {
 lab=out}
 N -120 -420 -120 -390 {
 lab=#net1}
-N -120 -330 -120 -300 {
-lab=#net2}
-N -120 -240 -120 -210 {
-lab=#net3}
-N -120 -150 -120 -100 {
-lab=VSS}
-N -200 -100 -120 -100 {
-lab=VSS}
-N -120 -180 -120 -150 {
-lab=VSS}
-N -120 -270 -120 -240 {
-lab=#net3}
-N -120 -360 -120 -330 {
-lab=#net2}
 N -120 -450 -120 -420 {
 lab=#net1}
 N -120 -520 -120 -500 {
@@ -61,6 +39,10 @@ N -120 -550 -120 -520 {
 lab=out}
 N -120 -500 -50 -500 {
 lab=out}
+N -210 -450 -210 -360 {}
+N -120 -360 -120 -330 {}
+N -120 -330 -120 -100 {}
+N -270 -100 -120 -100 {}
 C {cborder/border_s.sym} 520 0 0 0 {
 user="wulff"
 company="wulff"}
@@ -96,34 +78,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} -140 -360 0 0 {name=M3
-L=15
-W=1
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} -140 -270 0 0 {name=M4
-L=15
-W=1
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} -140 -180 0 0 {name=M5
 L=15
 W=1
 nf=1 

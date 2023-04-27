@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-import pandas as pd
 import yaml
 
 def main(name):
   # Delete next line if you want to use python post processing
-  return
   yamlfile = name + ".yaml"
 
   # Read result yaml file
